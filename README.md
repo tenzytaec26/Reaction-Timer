@@ -1,5 +1,8 @@
 Reaction Timer
 
+[This is the official report of this project:](https://github.com/tenzytaec26/Reaction-Timer/blob/main/Report_Reaction%20Timer.pdf)
+
+
 This report documents the design, simulation and testing of a simple programmable light display using a state machine. The programmable light system follows a predefined instruction set and operates using a read-only memory(ROM) component that stores a sequence of commands. This system consists of two primary VHDL files:
 * Lights.vhd: implements the state machine that controls the execution of instructions
 * Lightrom.vhd: defines the read-only memory that controls the execution of instructions.>
