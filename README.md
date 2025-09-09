@@ -1,16 +1,15 @@
-#Reaction Timer
+Reaction Timer
 
-####This report documents the design, simulation and testing of a simple programmable light display using a state machine. The programmable light system follows a predefined instruction set and operates using a read-only memory(ROM) component that stores a sequence of commands. This system consists of two primary VHDL files:
+This report documents the design, simulation and testing of a simple programmable light display using a state machine. The programmable light system follows a predefined instruction set and operates using a read-only memory(ROM) component that stores a sequence of commands. This system consists of two primary VHDL files:
 * Lights.vhd: implements the state machine that controls the execution of instructions
 * Lightrom.vhd: defines the read-only memory that controls the execution of instructions.>
 
 
-##📜 Description
-####1. Designing LightsRom and Lights For the Lights Display>
+📜 Description
+1. Designing LightsRom and Lights For the Lights Display>
 The goal of this section of the project is to use VHDL to design a simple read-only
 memory(ROM) that holds a program and a state machine that executes stored instructions.
-
-#####a. VHDL Design:
+a. VHDL Design:
 The lights display consists of a state machine that can execute eight different instructions over
 a 16-line instruction program. The main components include:
 1. Program Counter: keeps track of the current instruction.
