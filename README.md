@@ -20,5 +20,6 @@ The Light ROM has two main states: sFetch and sExecute.
 This LightROM can take in 6bit instructions and there is also a speed button where the first button makes the simulation two times faster and the second button makes it four times faster. The official report also contains a link to the video of the simulation. 
 
 🛠️ Technologies Used
+
 Language: VHDL
 Tester: GTKWave
